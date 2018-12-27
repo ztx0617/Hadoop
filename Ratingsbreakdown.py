@@ -20,6 +20,5 @@ class RatingsBreakdown(MRJob):
         yield key, sum(values)
 
 
-
 if __name__ == '__main__':
     RatingsBreakdown.run()
